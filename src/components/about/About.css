@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.about_container{
+    display: grid;
+    padding-top: 6.5rem;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about_me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.about_me-image:hover{
+transform: rotate(5deg);
+}
+
+
+
+.hey{
+    color: rgba(0,0,0,1);
+    text-transform: none;
+    line-height: 1.1;
+    letter-spacing: 0em;
+    font-size: 41px;
+    text-align: center;
+    /* font-family: 'Bon Vivant'; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.name{
+    font-size: 52px;
+    font-family: 'Poynter Bold';
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.dash{
+    content: "";
+    width: 10rem;
+    height: 1px;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    /* text-align: center; */
+    background: black;
+}
+
+
